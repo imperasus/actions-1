@@ -28,7 +28,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: Read File
-          uses: cat dragon.txt
+          run: cat dragon.txt
 
         - name: Deploy
-          uses: echo Deploying ... .. .
+          run: echo Deploying ... .. .
